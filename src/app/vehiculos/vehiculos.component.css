@@ -1,9 +1,12 @@
-.titulo img {
-  width: 100%; /* Ajusta el ancho al 100% del contenedor */
-  max-width: 300px; /* Establece un ancho máximo si es necesario */
+.imagen-superior {
+  text-align: center; /* Centra la imagen */
+  margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
+.imagen-superior img {
+  width: 100%; /* O ajusta el tamaño según tus necesidades */
+  max-width: 90%; /* Tamaño máximo */
   height: auto; /* Mantiene la relación de aspecto */
-  display: block; /* Asegúrate de que no haya espacios en línea */
-  margin: 0 auto; /* Centra la imagen si es más pequeña que el contenedor */
 }
 
 
