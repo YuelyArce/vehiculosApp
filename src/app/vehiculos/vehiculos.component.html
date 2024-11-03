@@ -1,0 +1,27 @@
+<div class="titulo">
+  <img src="assets/images/image 1.svg" alt="Lista Vehículos Usados" />
+</div>
+
+
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Marca</th>
+          <th>Línea</th>
+          <th>Modelo</th>
+        </tr>
+        <tr *ngFor="let vehiculo of vehiculos">
+          <td>{{ vehiculo.id }}</td>
+          <td>{{ vehiculo.marca }}</td>
+          <td>{{ vehiculo.linea }}</td>
+          <td>{{ vehiculo.modelo }}</td>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>
